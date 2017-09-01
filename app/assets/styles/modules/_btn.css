@@ -3,10 +3,16 @@
 	color: #FFF;
 	text-decoration: none;
 	padding: .75rem 1.2rem;
+	margin-right: 0;
 	display: inline-block;
+
+	@mixin atMedium {
+		margin-right: 20px;
+	}
 
 	&--orange{
 		background-color: $mainOrange;
+		margin-right: 0;
 	}
 
 	&--large {
